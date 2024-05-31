@@ -38,5 +38,5 @@ Docker 是一种容器化技术。要理解 Docker，首先需要理解什么是
 ## docker的使用1--启动MySQL容器
 ![](https://github.com/whu-ljy/2024_training/blob/4570904840f90e8e6feea88e23077f000c8ac424/120dcc53e504bc3d1f244c0b8960c6ee.png)
 
-###常规的增删改查
-![]()
+### 常规的增删改查
+![](https://github.com/whu-ljy/2024_training/blob/7dc5f4e13ed29f23e5a372c5646e80f9cc81af0c/c003b9a2336b0a2dfaed9576b6736a15.png)
