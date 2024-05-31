@@ -51,6 +51,9 @@ rm file_name
 # 删除目录
 rm -r directory_name
 
+### 2. 磁盘操作
+
+```bash
 # 查看磁盘空间
 df -h
 
