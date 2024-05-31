@@ -22,3 +22,49 @@ Shell 是 Linux 系统中的一个程序，负责解释和执行用户输入的�
 
 综上所述，Linux Shell 是 Linux 操作系统中的一个重要组成部分，它提供了一个命令行界面，让用户能够直接与操作系统进行交互，并通过编写 Shell 脚本实现自动化和批处理任务。
 
+## 文件操作和磁盘操作
+
+### 1. 文件操作
+
+```bash
+# 创建目录
+mkdir directory_name
+
+# 创建文件
+touch file_name
+
+# 查看文件内容
+cat file_name
+
+# 列出目录内容
+ls
+
+# 复制文件
+cp source_file destination_file
+
+# 移动文件
+mv source_file destination
+
+# 删除文件
+rm file_name
+
+# 删除目录
+rm -r directory_name
+
+# 查看磁盘空间
+df -h
+
+# 查看文件系统信息
+lsblk
+
+# 挂载文件系统
+mount /dev/sdx /mnt
+
+# 卸载文件系统
+umount /mnt
+
+# 格式化磁盘
+mkfs.ext4 /dev/sdx
+
+# 调整磁盘大小
+resize2fs /dev/sdx
