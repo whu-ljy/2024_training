@@ -8,84 +8,26 @@ Git 是一个开源的分布式版本控制系统，能够高效地处理各种�
 
 ## 2. Git 基本命令
 
-```bash
-### 2.1 配置
-
-# 设置用户名
-git config --global user.name "whu-ljy"
-
-# 设置邮箱
-git config --global user.email "1321792054@qq.com"
-
-### 2.2 创建仓库
-
-# 初始化一个新的 Git 仓库
-git init
-
-### 2.3 克隆仓库
-
-# 克隆一个远程仓库
-git clone https://github.com/user/repository.git
-
-### 2.4 提交更改
-
-# 查看文件状态
-git status
-
-# 添加文件到暂存区
-git add filename
-
-# 提交文件
-git commit -m "提交信息"
-
-### 2.5 查看历史
-
-# 查看提交历史
-git log
-
-### 2.6 分支操作
-
-# 查看所有分支
-git branch
-
-# 创建新分支
-git branch new-branch
-
-# 切换到新分支
-git checkout new-branch
-
-# 创建并切换到新分支
-git checkout -b new-branch
-
-### 2.7 合并分支
-
-# 切换到主分支
-git checkout main
-
-# 合并分支
-git merge new-branch
-
-### 2.8 远程操作
-
-# 查看远程仓库
-git remote -v
-
-# 添加远程仓库
-git remote add origin https://github.com/user/repository.git
-
-# 推送到远程仓库
-git push origin main
-
-# 拉取远程仓库的更新
-git pull
-
-### 2.9 撤销更改
-
-# 撤销工作区的更改
-git checkout -- filename
-
-# 重置暂存区的文件
-git reset HEAD filename
-
-# 重置到上一个提交
-git reset --hard HEAD^
+| 作用 | 命令 | 备注 |
+| ---- | ---- | ---- |
+| 设置用户名 | `git config --global user.name "whu-ljy"` | 配置用户名 |
+| 设置邮箱 | `git config --global user.email "1321792054@qq.com"` | 配置邮箱 |
+| 初始化一个新的 Git 仓库 | `git init` | 创建仓库 |
+| 克隆一个远程仓库 | `git clone https://github.com/user/repository.git` | 克隆仓库 |
+| 查看文件状态 | `git status` | 查看仓库当前状态 |
+| 添加文件到暂存区 | `git add filename` | 添加文件 |
+| 提交文件 | `git commit -m "提交信息"` | 提交更改 |
+| 查看提交历史 | `git log` | 查看历史 |
+| 查看所有分支 | `git branch` | 查看分支 |
+| 创建新分支 | `git branch new-branch` | 创建分支 |
+| 切换到新分支 | `git checkout new-branch` | 切换分支 |
+| 创建并切换到新分支 | `git checkout -b new-branch` | 创建并切换分支 |
+| 切换到主分支 | `git checkout main` | 切换到主分支 |
+| 合并分支 | `git merge new-branch` | 合并分支 |
+| 查看远程仓库 | `git remote -v` | 查看远程 |
+| 添加远程仓库 | `git remote add origin https://github.com/user/repository.git` | 添加远程 |
+| 推送到远程仓库 | `git push origin main` | 推送远程 |
+| 拉取远程仓库的更新 | `git pull` | 拉取远程 |
+| 撤销工作区的更改 | `git checkout -- filename` | 撤销更改 |
+| 重置暂存区的文件 | `git reset HEAD filename` | 重置暂存区 |
+| 重置到上一个提交 | `git reset --hard HEAD^` | 回退版本 |
