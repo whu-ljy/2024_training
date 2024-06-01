@@ -42,5 +42,5 @@ Docker 是一种容器化技术。要理解 Docker，首先需要理解什么是
 ![](https://github.com/whu-ljy/2024_training/blob/7dc5f4e13ed29f23e5a372c5646e80f9cc81af0c/c003b9a2336b0a2dfaed9576b6736a15.png)
 
 ## docker的使用2--redis的增删改查
-
+![](https://github.com/whu-ljy/2024_training/blob/6644a739d92556f4b2e359173254788f6a6d996b/%E5%9B%BE%E7%89%87%E5%90%88%E9%9B%86/Redis%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E5%9B%BE%E7%89%87.png)
 
