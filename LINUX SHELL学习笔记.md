@@ -24,51 +24,30 @@ Shell 是 Linux 系统中的一个程序，负责解释和执行用户输入的�
 
 ## 文件操作和磁盘操作
 
+## 文件操作和磁盘操作
+
 ### 1. 文件操作
 
-```bash
-# 创建目录
-mkdir directory_name
+| 作用 | 命令 | 备注 |
+| ---- | ---- | ---- |
+| 创建目录 | `mkdir directory_name` | 创建一个新的目录 |
+| 创建文件 | `touch file_name` | 创建一个新的空文件 |
+| 查看文件内容 | `cat file_name` | 显示文件的内容 |
+| 列出目录内容 | `ls` | 显示目录中的文件和子目录 |
+| 复制文件 | `cp source_file destination_file` | 复制文件到指定位置 |
+| 移动文件 | `mv source_file destination` | 移动或重命名文件 |
+| 删除文件 | `rm file_name` | 删除指定文件 |
+| 删除目录 | `rm -r directory_name` | 递归删除目录及其内容 |
 
-# 创建文件
-touch file_name
-
-# 查看文件内容
-cat file_name
-
-# 列出目录内容
-ls
-
-# 复制文件
-cp source_file destination_file
-
-# 移动文件
-mv source_file destination
-
-# 删除文件
-rm file_name
-
-# 删除目录
-rm -r directory_name
-```
 ### 2. 磁盘操作
-```bash
 
-# 查看磁盘空间
-df -h
+| 作用 | 命令 | 备注 |
+| ---- | ---- | ---- |
+| 查看磁盘空间 | `df -h` | 显示磁盘空间使用情况 |
+| 查看文件系统信息 | `lsblk` | 列出所有块设备的信息 |
+| 挂载文件系统 | `mount /dev/sdx /mnt` | 将文件系统挂载到指定目录 |
+| 卸载文件系统 | `umount /mnt` | 卸载指定挂载点的文件系统 |
+| 格式化磁盘 | `mkfs.ext4 /dev/sdx` | 将指定磁盘格式化为 ext4 文件系统 |
+| 调整磁盘大小 | `resize2fs /dev/sdx` | 调整 ext4 文件系统大小 |
 
-# 查看文件系统信息
-lsblk
 
-# 挂载文件系统
-mount /dev/sdx /mnt
-
-# 卸载文件系统
-umount /mnt
-
-# 格式化磁盘
-mkfs.ext4 /dev/sdx
-
-# 调整磁盘大小
-resize2fs /dev/sdx
-```
