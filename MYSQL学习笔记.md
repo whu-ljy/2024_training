@@ -1,4 +1,5 @@
-### MySQL
+# MySQL
+由于MySQL我有系统的学习过 这里只是简单复习了一下 没有进行过多的练习
 ![image](https://user-images.githubusercontent.com/71172395/125794610-c70f39a3-dc19-41b8-b1a1-01523df03ff2.png)
 | 作用 | 命令 | 备注 |
 | ---- | ---- | ---- |
