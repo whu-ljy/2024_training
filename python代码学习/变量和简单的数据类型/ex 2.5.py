@@ -1,0 +1,1 @@
+print('Lei Jun once said,"Technology should not be superior."')
